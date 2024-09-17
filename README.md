@@ -10,6 +10,7 @@ AI has become a trigger word. "Our popcorn machine is AI enabled!", or "Our bloc
 The goals of this project are two-fold:
 
 **1**: Make an accessible website for clients to access a personal profile and chat history with "their" chatbot.
+
 **2**: Create databases that will serve as references for 3 applications for the chatbot to use for specific clients (ie. Lawyers use case review database, but Dr. uses illness sympotmology database).
 
 ## Technologies included in this project
