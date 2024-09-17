@@ -26,7 +26,7 @@ The goals of this project are two-fold:
 ## Mock-up
 
 <p align="left">
-  <img src="https://github.com/ethan-mcq/startup/blob/main/ref_images/login.png" width="150" height="auto"/>
+  <img src="https://github.com/ethan-mcq/startup/blob/main/ref_images/login.png" width="1000" height="auto"/>
 </p>
 
 ## Technologies included in this project
