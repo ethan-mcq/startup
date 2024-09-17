@@ -13,6 +13,15 @@ The goals of this project are two-fold:
 
 **2**: Create databases that will serve as references for 3 applications for the chatbot to use for specific clients (ie. Lawyers use case review database, but Dr. uses illness sympotmology database).
 
+## Key Features
+- Secure login protocol
+- Data security measures (HIPPA, etc.)
+- Ability to reference previous chats
+- Feature to export chat results into PDF file with references cited at the bottom
+- Import your own documents to be analyzed as the "text block"
+- Connection to SQL database with functioning prompts
+- Ability to delete user if necessary
+- Connect to [Stripe](https://stripe.com/?utm_campaign=AMER_US_en_Google_Search_Brand_Stripe_EXA-20839462206&utm_medium=cpc&utm_source=google&ad_content=683853401230&utm_term=stripe&utm_matchtype=e&utm_adposition=&utm_device=c&gad_source=1&gclid=Cj0KCQjwrp-3BhDgARIsAEWJ6SztNPLBb-gTaIHuWrXlFw7aeVBBvILJJo5InV-K3_JZlfDR2aPjIpkaAr83EALw_wcB)
 ## Technologies included in this project
 - **HTML**: 
 
