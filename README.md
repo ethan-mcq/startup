@@ -30,37 +30,37 @@ The goals of this project are two-fold:
 </p>
 
 ## Technologies included in this project
-- **HTML**: 
-- 5 HTML pages (Welcome, Pricing/Info, Login, Chat, Account Info/Payment)
-- Correct styling and fluid structure
+**HTML**: 
+  - 5 HTML pages (Welcome, Pricing/Info, Login, Chat, Account Info/Payment)
+  - Correct styling and fluid structure
 
-- **CSS**: 
-- Fit to screen styling
-- Color choice (Use figma for styling)
+**CSS**: 
+  - Fit to screen styling
+  - Color choice (Use figma for styling)
 
-- **Python**: 
-- Process + parse PDF or other file inputs
-- Connect to OpenAI API
-- Recieve API POST
+**Python**: 
+  - Process + parse PDF or other file inputs
+  - Connect to OpenAI API
+  - Recieve API POST
 
-- **React**:
-- Login input
-- Chat interface
-- Account information
-- Previous chats
+**React**:
+  - Login input
+  - Chat interface
+  - Account information
+  - Previous chats
 
-- **Service**:
-- Connection to OpenAI API
+**Service**:
+  - Connection to OpenAI API
 
-- **Authentication/Payment**:
-- Login services
-- MFA
-- Stripe
+**Authentication/Payment**:
+  - Login services
+  - MFA
+  - Stripe
 
-- **DB/Login**:
-- Store and create big-db
-- Store previous chats with ability to still export report
+**DB/Login**:
+  - Store and create big-db
+  - Store previous chats with ability to still export report
   
-- **WebSocket**:
-- API response displayed in real-time.
-- Chat logs update real-time as well
+**WebSocket**:
+  - API response displayed in real-time.
+  - Chat logs update real-time as well
