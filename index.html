@@ -8,28 +8,61 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
+            color: #333;
             margin: 0;
             padding: 0;
         }
         .chat-container {
+            display: flex;
             width: 80%;
-            max-width: 800px;
+            max-width: 1000px;
             margin: 20px auto;
             border: 1px solid #ddd;
             border-radius: 8px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
+        .chat-log {
+            width: 200px;
+            border-right: 1px solid #ddd;
+            background-color: #f9f9f9;
+            overflow-y: auto;
+            color: #333;
+        }
+        .chat-log h2 {
+            margin: 0;
+            padding: 10px;
+            background-color: #eee;
+            color: #333;
+        }
+        .chat-log ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .chat-log li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            cursor: pointer;
+        }
+        .chat-log li:hover {
+            background-color: #e0e0e0;
+        }
+        .chat-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
         .chat-header {
             background-color: #000842;
             color: #fff;
             padding: 10px;
-            border-radius: 8px 8px 0 0;
+            border-radius: 8px 0 0 0;
             text-align: center;
         }
         .chat-body {
             padding: 20px;
-            height: 400px;
+            flex: 1;
             overflow-y: auto;
             border-bottom: 1px solid #ddd;
         }
@@ -74,29 +107,40 @@
             cursor: pointer;
         }
         .chat-footer button:hover {
-            background-color: #000842;
+            background-color: #011190;
         }
     </style>
 </head>
 <body>
     <div class="chat-container">
-        <div class="chat-header">
-            Chat Interface
+        <div class="chat-log">
+            <h2>Chat Log</h2>
+            <ul>
+                <li>Patient 1</li>
+                <li>Patient 2</li>
+                <li>Patient 3</li>
+                <li>Patient 4</li>
+            </ul>
         </div>
-        <div class="chat-body">
-            <div class="message">
-                <div class="message-content">Hello, Ethan, how can I help you today?</div>
+        <div class="chat-content">
+            <div class="chat-header">
+                Chat Interface
             </div>
-            <div class="message user">
-                <div class="message-content">Can you help me find answers in this file?</div>
+            <div class="chat-body">
+                <div class="message">
+                    <div class="message-content">Hello, Ethan, how can I help you today?</div>
+                </div>
+                <div class="message user">
+                    <div class="message-content">Can you help me find answers in this file?</div>
+                </div>
+                <div class="message">
+                    <div class="message-content">Sure, I can help with that. Let's run a quick query.</div>
+                </div>
             </div>
-            <div class="message">
-                <div class="message-content">Sure, I can help with that. Let's run a quick query</div>
+            <div class="chat-footer">
+                <input type="text" placeholder="Type a message...">
+                <button>Send</button>
             </div>
-        </div>
-        <div class="chat-footer">
-            <input type="text" placeholder="Type a message...">
-            <button>Send</button>
         </div>
     </div>
 </body>
