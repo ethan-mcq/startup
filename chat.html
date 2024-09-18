@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <header>
+        <h1>Genechat</h1>
+  
+        <!-- Navigation elements -->
+        <nav>
+          <!-- Menu is a semantic alternative to <ul> that represents an interaction -->
+          <menu>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="login.html">Login + Chat</a></li>
+          </menu>
+        </nav>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat Interface</title>
@@ -57,8 +70,26 @@
             background-color: #000842;
             color: #fff;
             padding: 10px;
-            border-radius: 8px 0 0 0;
+            border-radius: 8px 8px 0 0;
             text-align: center;
+            position: relative;
+        }
+        .chat-header .account-info {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .chat-header .account-info:hover {
+            background-color: #0056b3;
         }
         .chat-body {
             padding: 20px;
@@ -125,6 +156,7 @@
         <div class="chat-content">
             <div class="chat-header">
                 Chat Interface
+                <a href="account.html" class="account-info">Account Info</a>
             </div>
             <div class="chat-body">
                 <div class="message">
