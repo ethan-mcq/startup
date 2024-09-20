@@ -8,31 +8,29 @@
     <link href="dist/output.css" rel="stylesheet">
   </head>
   <body class="font-sans font-thin p-20 bg-gray-900 text-gray-300">
-    <header class="bg-gray-800 bg-opacity-75 px-8 py-8 flex justify-between items-center">
+    <header class="bg-gray-800 bg-opacity-75 px-8 py-8 flex justify-between items-center rounded-lg overflow-hidden">
       <img src="ref_images/logo.png" alt="Genechat Logo" class="h-12">
       <ul class="hidden md:flex lowercase text-sm">
         <li>
-          <a href="index.html" class="text-gray-300 hover:text-white">Home</a>
+          <a href="index.html" class="text-gray-300 hover:text-white active-tab">Home</a>
         </li>
         <li class="ml-8">
-          <a href="about.html" class="text-gray-300 hover:text-white">About</a>
+          <a href="pricing.html" class="text-gray-300 hover:text-white non-active">Pricing</a>
         </li>
         <li class="ml-8">
-          <a href="pricing.html" class="text-gray-300 hover:text-white">Pricing</a>
-        </li>
-        <li class="ml-8">
-          <a href="login.html" class="text-gray-300 hover:text-white">Login + Chat</a>
+          <a href="login.html" class="text-gray-300 hover:text-white non-active">Login + Chat</a>
         </li>
       </ul>
     </header>
-    <main class="w-full h-screen relative flex items-center">
-      <img src="ref_images/dna_landing.webp" class="absolute top-0 left-0 w-full h-full object-cover" />
-      <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-8 text-center bg-gray-800 bg-opacity-75 p-6 rounded">
+    <main class="w-full h-screen relative flex items-center overflow-hidden rounded-lg mt-4">
+      <img src="ref_images/dna_landing.webp" class="absolute top-0 left-0 w-full h-full object-cover rounded-lg" />
+      <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-8 text-center bg-gray-800 bg-opacity-75 p-6 rounded-lg">
         <h2 class="mb-2 text-white uppercase text-2xl md:text-5xl leading-tight tracking-wide font-normal">Your research, faster.</h2>
-        <a href="login.html" class="inline-block uppercase bg-white py-3 px-6 text-xs text-gray-900">Get started</a>
+        <a href="login.html" class="inline-block uppercase bg-white py-3 px-6 text-xs text-gray-900 rounded-lg">Get started</a>
       </div>
     </main>
-    <div class="py-12">
+
+    <div class="py-4">
       <div class="flex flex-wrap -mx-2">
         <div class="w-full md:w-1/3 p-2 mb-12">
           <a href="#" class="block mb-8 bg-black hover:bg-gray-700">
@@ -53,11 +51,10 @@
       <h2 class="text-center uppercase text-2xl lg:text-4xl tracking-wider mb-12 text-white">About Us</h2>
       <p class="text-gray-300 mx-auto max-w-2xl text-center leading-relaxed mb-12">At Genechat, we harness the power of cutting-edge AI technology to transform complex genetic test reports into clear, easily understood language. For both patients and doctors, we understand that navigating genetic results can be overwhelming, which is why we are committed to making genetic data accessible and actionable for everyone.</p>
     </div>
+
     <div class="bg-gray-800 text-gray-500 px-12 py-8 flex flex-wrap">
       <div class="w-full lg:w-1/2 flex justify-center lg:justify-start mb-6 lg:mb-0">
         <a href="index.html" class="hover:text-white">home</a>
-        <span class="px-4">|</span>
-        <a href="about.html" class="hover:text-white">about</a>
         <span class="px-4">|</span>
         <a href="pricing.html" class="hover:text-white">pricing</a>
         <span class="px-4">|</span>
